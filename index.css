@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    margin-top: 30px;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
     font-style: italic;
     position: relative;
     left: 20px;
-    top: 20px;
+    top: 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -23,7 +24,7 @@ a {
 }
 
 #addtask-plus {
-    background-image: url(./plus\ button.jpeg);
+    background-image: url(./add.jpeg.jpg);
     background-size: contain;
     position: relative;
     top: 5px;
@@ -31,7 +32,7 @@ a {
     height: 25px;
     width: 25px;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: wheat;
 }
 
 #addtask {
@@ -55,7 +56,7 @@ a {
 #add-new-list-border,
 #add-new-item-border {
     border: 2px solid black;
-    background-color: pink;
+    background-color: grey;
     height: 100px;
     width: 300px;
     border-radius: 5px;
@@ -120,7 +121,7 @@ a {
 }
 
 .delete-item-content {
-    background-image: url(./remove.jpeg);
+    background-image: url(./remove.jpeg.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 20px;
@@ -130,7 +131,7 @@ a {
 }
 
 .add-item-content {
-    background-image: url(./add.jpeg);
+    background-image: url(./add.jpeg.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 20px;
@@ -178,6 +179,6 @@ a {
     }
     .card {
         position: relative;
-        left: 70px;
+        left: 30px;
     }
 }
