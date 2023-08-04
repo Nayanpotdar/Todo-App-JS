@@ -110,6 +110,9 @@ a {
     width: 229px;
     height: 257px;
     text-align: center;
+     background-image: url(./code.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* overflow-y: scroll; */
 }
 
